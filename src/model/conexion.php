@@ -1,9 +1,10 @@
 <?php
+include_once("../../config.php")
 class Conexion{
-    private $host   ="localhost";
-    private $usuario="itsys";
-    private $clave  ="123";
-    private $db     ="itsys";
+    private $host   =$host_config;
+    private $usuario=$usuario_config;
+    private $clave  =$clave_config;
+    private $db     =$db_config;
     public $conexion;
 
     public function __construct(){        
