@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+:root{
+    --primary: #007bff;    
+    --fondo: #f8f9fa;    
+    --dark: #343a40;
+    --secondary:#6c757d;
+    --success:#28a745;
+    --danger:#dc3545;
+} 
+
+
+
+body{
+    background-color: var(--fondo) !important;
+    color: var(--dark) !important;     
+}
+
+.continer{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+
