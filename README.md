@@ -1,1 +1,2 @@
 # ITSYS.SAS
+rediseño de la web site de ITSYS SAS en este repositorio se encuentra el crud y el desarrollo, es necesario configurar un archivo config.php con los datos de la conexion a la base de datos 
